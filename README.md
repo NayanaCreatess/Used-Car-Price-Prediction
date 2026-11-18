@@ -156,6 +156,23 @@ The trained model uses the following seven input features:
 - Previous Owners
 
 Car Name is displayed in the application but is not currently used as a model input.
+## Model Evaluation
+
+The Random Forest Regression model was evaluated using a  train-test split (80% training and 20% testing).
+
+| Evaluation Metric | Result |
+|---|---:|
+| Mean Absolute Error (MAE) | 1.54 Lakhs |
+| Root Mean Squared Error (RMSE) | 3.74 Lakhs |
+| R² Score | 0.46 |
+
+### Performance Summary
+
+- The model achieved an MAE of 1.54 Lakhs.
+- The RMSE was 3.74 Lakhs.
+- The R² score was 0.46, indicating that the model explains approximately 46% of the variation in car selling prices.
+
+These results provide a baseline for future model improvements.
 
 ## Project Objective
 
@@ -163,6 +180,3 @@ The main objective of this project is to apply Machine Learning concepts to a re
 
 ---
 
-⭐ If you find this project interesting, consider giving this repository a star!
-
-*This application provides estimated prices for educational purposes. Actual market prices may vary.*
